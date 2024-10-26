@@ -1,0 +1,32 @@
+.resume{
+    background-color: rgb(255, 255, 254);
+    padding: 3% 3%;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2PX solid rgb(32, 20, 4);
+    font-weight: 500;
+    transition: 0.5s;
+    font-family: outfit;
+    font-size: 15px;
+  }
+  
+  .resume:hover{
+  
+    transform: scale(1.5);
+  }
+
+  @media(max-width:767px){
+
+    .resume{
+      padding: 10px 18px;
+   
+
+    }
+
+    .resume:hover{
+  
+      transform: scale(0.9);
+    }
+
+    
+  }

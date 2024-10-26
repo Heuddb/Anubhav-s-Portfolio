@@ -1,0 +1,126 @@
+.hero_container {
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+  }
+  
+  .about {
+    margin: 0 5% 0 11%;
+    width: 35%;
+  }
+  
+  h1 {
+    font-size: 39px;
+    line-height: 3.5rem;
+  }
+  #per{
+    padding: 3% 0;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  
+  .hero_action {
+    display: flex;
+    gap: 10%;
+    padding: 2.5% ;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  .connect{
+    padding: 3% 3%;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #DF8908;
+    font-weight: 400;
+    transition: 0.5s;
+  }
+  
+  .connect:hover{
+  
+    transform: scale(1.5);
+  }
+  
+  
+  
+  .profile img{
+    width: 52vw;
+    height: 91vh;
+    margin-left: 15%;
+  }
+  .passion{
+    display: none;
+  }
+  
+  @media(max-width:676px) {
+  
+  
+    .hero_container{
+      max-width: 420px;
+      
+       
+    }
+  
+  .about{
+    
+  
+    margin: 70px 50px;
+    width: 400px;
+  }
+  
+    .told{
+      font-size: 25px;
+      line-height: 40px;
+     
+    }
+  
+    .type{
+      display: none;
+    }
+  
+    .passion{
+      display: block;
+      font-size: 27px;
+    }
+  
+    #per{
+      margin-top: 10px;
+      font-size: 20px;
+      line-height: 40px;
+      width: 97%;
+  
+    }
+  
+    .hero_action{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin: 15px 0;
+      
+    }
+    .connect{
+      padding: 10px 10px;
+  
+  
+    }
+  
+    .connect:hover{
+  
+      transform: scale(0.9);
+    }
+  
+    .profile img{
+     display: none;
+     height: 57vh;
+     width: 59vw;
+     position: absolute;
+     top: 293px;
+     left: 200px;
+  
+    }
+    
+  
+  }
+  

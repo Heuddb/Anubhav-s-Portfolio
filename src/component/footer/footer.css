@@ -1,0 +1,35 @@
+
+footer {
+    width: 100vw;
+    background-color:#4a7973;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .footer-content, .footer-social, .footer-copyright {
+    margin: 10px;
+  }
+  .footer-content a, .footer-social a {
+    color: #4b95df;
+    text-decoration: none;
+  }
+  .footer-social a:hover {
+    text-decoration: underline;
+  }
+
+   .footer-content h3{
+
+    padding: 5px;
+
+  }
+  .footer-content p{
+
+    padding: 5px;
+
+  }
+
