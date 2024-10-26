@@ -5,12 +5,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "file-saver": "^2.0.5",
